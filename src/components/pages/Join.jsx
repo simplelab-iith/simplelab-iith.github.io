@@ -1,5 +1,8 @@
 import React from "react";
 
+const APPLY_FORM_URL =
+  "https://docs.google.com/forms/d/e/1FAIpQLSclP-u5wN6NlkBi-OVHFV7xgvqsupS02st3O-yZs-vNi4f69g/viewform";
+
 export default function Join({ t }) {
   return (
     <div className="space-y-16 pb-20 pt-10">
@@ -17,7 +20,8 @@ export default function Join({ t }) {
       {/* Main Content Layout */}
       <section className="w-full px-6 lg:px-12 max-w-4xl mx-auto">
         <div className="space-y-6">
-          <h2 className="text-2xl font-bold tracking-tight font-heading text-slate-800  border-b border-slate-200  pb-3 flex items-center gap-2">
+          <div className="border-b border-slate-200 pb-3 flex flex-wrap items-center justify-between gap-4">
+          <h2 className="text-2xl font-bold tracking-tight font-heading text-slate-800 flex items-center gap-2">
             <svg
               className="h-5 w-5 stroke-[#f97316] fill-none stroke-2"
               viewBox="0 0 24 24"
@@ -28,6 +32,22 @@ export default function Join({ t }) {
             </svg>
             {t.join.positionsTitle}
           </h2>
+
+          <a
+            href={APPLY_FORM_URL}
+            target="_blank"
+            rel="noreferrer"
+            className="inline-flex items-center gap-2 rounded-lg bg-[#f97316] px-5 py-2.5 text-sm font-semibold text-white shadow-md hover:bg-orange-600 hover:shadow-lg transition-all duration-300"
+          >
+            {t.join.applyButton}
+            <svg
+              className="h-4 w-4 stroke-current fill-none stroke-2"
+              viewBox="0 0 24 24"
+            >
+              <path d="M5 12h14M12 5l7 7-7 7" />
+            </svg>
+          </a>
+          </div>
 
           <div className="space-y-6">
             {t.join.positions.map((pos, idx) => (

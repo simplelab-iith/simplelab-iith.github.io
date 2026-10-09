@@ -76,6 +76,7 @@ export const i18n = {
       solvedRevealText: "Excellent job! You have demonstrated strong logic skills. Apply by sending your CV to: ",
       solvedInstruction: "Subject line should start with: [SIMPLE-LAB-INTERN-SUCCESS]",
       positionsTitle: "Open Research Positions",
+      applyButton: "Apply Now",
       positions: [
         {
           role: "PhD Researcher (Programming Languages / Formal Methods)",
@@ -169,6 +170,7 @@ export const i18n = {
       solvedRevealText: "उत्कृष्ट कार्य! आपने मजबूत तार्किक कौशल का प्रदर्शन किया है। अपना सीवी यहां भेजकर आवेदन करें: ",
       solvedInstruction: "विषय (Subject) पंक्ति इससे शुरू होनी चाहिए: [SIMPLE-LAB-INTERN-SUCCESS]",
       positionsTitle: "खुले शोध पद",
+      applyButton: "अभी आवेदन करें",
       positions: [
         {
           role: "पीएचडी शोधकर्ता (प्रोग्रामिंग भाषाएं / औपचारिक तरीके)",
@@ -262,6 +264,7 @@ export const i18n = {
       solvedRevealText: "అద్భుతమైన పని! మీరు బలమైన తార్కిక నైపుణ్యాలను ప్రదర్శించారు. మీ సివి ని ఇక్కడకు పంపడం ద్వారా దరఖాస్తు చేసుకోండి: ",
       solvedInstruction: "సబ్జెక్ట్ లైన్ తప్పనిసరిగా దీనితో ప్రారంభం కావాలి: [SIMPLE-LAB-INTERN-SUCCESS]",
       positionsTitle: "ఖాళీగా ఉన్న పరిశోధనా స్థానాలు",
+      applyButton: "ఇప్పుడే దరఖాస్తు చేయండి",
       positions: [
         {
           role: "పీహెచ్‌డీ పరిశోధకుడు (ప్రోగ్రామింగ్ లాంగ్వేజెస్ / ఫార్మల్ మెథడ్స్)",
