@@ -1,4 +1,5 @@
 import React, { useState, useEffect, useRef } from 'react';
+import iithLogo from '../assets/iith-logo.png';
 
 export default function Header({ currentPath, setPath, currentLang, setLang, t }) {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -49,7 +50,7 @@ export default function Header({ currentPath, setPath, currentLang, setLang, t }
         <div className="flex lg:flex-1 items-center">
           <a href="https://iith.ac.in" target="_blank" rel="noreferrer" className="shrink-0 flex items-center justify-center">
             <img
-              src="https://iith.ac.in/assets/images/logo.png"
+              src={iithLogo}
               alt="IIT Hyderabad Logo"
               className="h-10 sm:h-12 w-auto object-contain"
             />
