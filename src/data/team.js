@@ -46,7 +46,11 @@ export const team = [
     id: "rajat",
     name: "Rajat Varshney",
     role: "MTech Research Assistant",
-    bio: "Joined the ΣλMPL∃ Lab in August 2025."
+    bio: "Rajat is currently working on machine learning and deep learning for programming languages and compilers. His research interests include Program Analysis and Embeddings, Large Language Models, Machine Learning, and Agentic AI.",
+    email: "cs25mtech12020@iith.ac.in",
+    scholar: "https://scholar.google.com/citations?user=iaGaRVAAAAAJ&hl=en",
+    github: "https://github.com/RajatVarshney18",
+    linkedin: "https://www.linkedin.com/in/rajat-varshney-57a1b2192/"
   },
   {
     id: "shubham",
